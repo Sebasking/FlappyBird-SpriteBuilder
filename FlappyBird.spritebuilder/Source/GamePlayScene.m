@@ -19,7 +19,7 @@
     // put update code here
     timeSinceObstacle += delta;
     
-    if(timeSinceObstacle > 1.0f){
+    if(timeSinceObstacle > 0.5f){
         
         [self addObstacle];
         
